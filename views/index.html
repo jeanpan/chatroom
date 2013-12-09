@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/script.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One|Architects+Daughter|Varela+Round' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<title>{{title}}</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Chat room with Node.js and Socket.io</h1>
+			<p>online number: <span id="user_number"></span></p>
+		</header>
+		<div class="content">
+			<div id="user_detail">
+				<form class="form-inline">
+					<input type="text" id="name_input" class="form-control">
+					<button id="name_set" class="btn btn-success">Set Name</button>
+				</form>
+			</div>
+			<div id="chat_controls">
+				<form class="form-inline">				
+					<input type="text" id="message_input" class="form-control">
+					<button id="submit" class="btn btn-warning">Send</button>
+				</form>
+			</div>			
+			<div id="chat_entries"></div>
+		</div>
+	</div>
+</body>
+</html>

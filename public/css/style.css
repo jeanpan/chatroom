@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 70%;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  margin: 10px 0 0 0;
+  padding: 5px;
+  background-color: #84d562;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center; }
+  header h1 {
+    font-family: 'Architects Daughter', cursive;
+    margin: 0px 5px 5px; }
+  header p {
+    font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+    margin: 0px 5px;
+    color: #626262; }
+
+.content {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  background-color: #d6d6d6; }
+
+#user_detail {
+  width: 50%;
+  margin: 5px auto;
+  /*
+  	input {
+  		width: 200px;
+  		height: 20px;
+  		margin: 0 auto;
+  		display: block;
+  	}
+  */
+  /*
+  	button {
+  		background-color: #7cddfd;
+  		-moz-border-radius: 10px;
+  		-webkit-border-radius: 10px;
+  		border-radius: 10px;
+  		border: 0px solid #18ab29;
+  		display: block;
+  		cursor: pointer;
+  		color: #000000;
+  		font-weight: bold;
+  		font-family: 'Poiret One', cursive;
+  		font-size: 14px;
+  		padding: 5px 20px;
+  		text-decoration: none;
+  		margin: 10px auto 0px;
+  	}
+  */ }
+
+#chat_controls {
+  width: 50%;
+  margin: 5px auto;
+  /*
+  	input {
+  		width: 200px;
+  		height: 20px;
+  		margin: 0 auto;
+  		display: block;
+  	}
+  */
+  /*
+  	button {
+  		background-color: #fddd7c;
+  		-moz-border-radius: 10px;
+  		-webkit-border-radius: 10px;
+  		border-radius: 10px;
+  		border: 0px solid #18ab29;
+  		display: block;
+  		cursor: pointer;
+  		color: #000000;
+  		font-weight: bold;
+  		font-family: 'Poiret One', cursive;
+  		font-size: 14px;
+  		padding: 5px 20px;
+  		text-decoration: none;
+  		margin: 10px auto 0px;
+  	}
+  */ }
+
+#chat_entries {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  font-family: 'Architects Daughter', cursive; }
